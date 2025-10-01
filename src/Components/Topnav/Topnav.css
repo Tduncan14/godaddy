@@ -1,0 +1,55 @@
+.topNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logoSide {
+    display: flex;
+    flex: 4;
+    align-items: center;
+    gap: 15px;
+}
+
+.logoSide ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: clamp(12px, 14px, 16px);
+}
+
+.logoSide li {
+    list-style-type: none;
+    align-self: center;
+    justify-self: center;
+    vertical-align: center;
+}
+
+/* this is the leftside */
+
+
+.rightSide {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    font-size: clamp(13px, 14px, 16px);
+}
+
+.rightSide h4 {
+    font-weight: 400;
+}
+
+.rightSide select {
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --smallPadding: 2rem;
+  --mediumPadding: 3.5rem;
+  --Largepadding: 4rem;
+  --ColorOne: #00838C;
+  --ColorTwo: #09757A;
+  --ColorThree: #D8EFEF;
+  --blackColor: #111111;
+  --WhiteColor: #FFF;
+}
+
+
+.App {
+  padding-left: var(--mediumPadding);
+  padding-right: var(--mediumPadding);
+  padding-top: var(--smallPadding);
+  padding-bottom: var(--smallPadding);
+}
