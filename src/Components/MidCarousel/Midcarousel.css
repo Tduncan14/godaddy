@@ -1,0 +1,99 @@
+.carousel {
+    display: flex;
+    column-gap: 1.6rem;
+    align-items: stretch;
+}
+
+
+.cara {
+
+    background-image: url('https://plus.unsplash.com/premium_photo-1668226461583-537fc6c5543d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 4.2;
+    padding: 5rem;
+    padding-left: 1.3rem;
+}
+
+
+.domains {
+    background: #D8EFEF;
+    flex: 2;
+}
+
+
+/* shopArea */
+.shopName {
+    margin-top: .8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "domain security website wordpress shop"
+        "email  webD   onlineS  webHosting shop";
+    align-items: stretch;
+
+}
+
+.domain,
+.security,
+.websites,
+.wordpress,
+.email,
+.websiteD,
+.onlineS,
+.webHosting,
+.ShopBig {
+    border: solid 1px #ececec;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: gray;
+}
+
+.ShopBig {
+    display: flex;
+    flex-direction: column;
+}
+
+.ShopBig h1 {
+    color: black;
+    font-weight: 900;
+}
+
+.domain {
+    grid-area: domain;
+}
+
+.security {
+    grid-area: security;
+}
+
+.websites {
+    grid-area: website;
+}
+
+.wordpress {
+    grid-area: wordpress
+}
+
+.email {
+    grid-area: email;
+}
+
+.websiteD {
+    grid-area: webD;
+}
+
+.onlineS {
+    grid-area: onlineS;
+}
+
+.webHosting {
+    grid-area: webHosting;
+}
+
+.ShopBig {
+    grid-area: shop;
+}

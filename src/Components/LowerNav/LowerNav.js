@@ -15,7 +15,7 @@ const LowerNav = () => {
 
                 <input type="input" value="Type the domain you want" />
 
-                <button className=""> Search Domain</button>
+                <button className="sDomain"> Search Domain</button>
 
             </div>
 
