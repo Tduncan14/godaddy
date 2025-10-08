@@ -21,4 +21,6 @@
   padding-right: var(--mediumPadding);
   padding-top: var(--smallPadding);
   padding-bottom: var(--smallPadding);
+  max-width: 100%;
+  min-height: 100vh;
 }

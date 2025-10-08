@@ -6,6 +6,7 @@ import MidGallery from '../MidGallery/MidGallery';
 
 
 
+
 const MidContent = () => {
 
 
@@ -16,6 +17,7 @@ const MidContent = () => {
         <div className="MidContent">
             <MidCarousel />
             <MidGallery />
+
         </div>
     )
 

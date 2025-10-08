@@ -1,0 +1,62 @@
+.footer {
+    background: #111;
+    color: white;
+}
+
+
+/* mid foot area */
+
+.midFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    margin-top: 1rem;
+
+}
+
+.list li {
+    list-style-type: none;
+    margin-top: 1rem;
+
+}
+
+/* not the list  */
+.footerStates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FooterLeftStates {
+    display: flex;
+}
+
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: rgba(82, 81, 81, 0.8);
+    border-radius: 2px;
+    width: 100%;
+    margin-top: 1.4rem;
+}
+
+.midline {
+    border: none;
+    height: 2px;
+    background-color: rgba(82, 81, 81, 0.8);
+    border-radius: 2px;
+    width: 80%;
+    margin-top: 1.4rem;
+    align-self: center;
+
+}
+
+
+.Logo {
+    display: flex;
+}

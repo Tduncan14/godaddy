@@ -1,20 +1,27 @@
 .midGallery {
     display: flex;
     align-items: stretch;
+    justify-content: center;
     margin-top: 5rem;
-    gap: 35px;
+    gap: 15px;
     max-width: 100%;
-    background: blue;
+
 
 
 }
 
+.galleryContent {}
+
+
+.imgP {}
+
 .midGallery img {
 
     border-radius: 20px;
-    max-width: 90%;
+    max-width: 80%;
     height: 80%;
     align-self: center;
+
 
 
 
@@ -26,15 +33,28 @@
 .leftGallery {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    width: 80%;
     flex: 1;
-    background: red;
-
+    max-height: fit-content;
 
 }
 
+
+.titleOne {
+    margin-bottom: 10rem;
+
+}
+
+
+
 .leftGallery h1 {
-    align-self: flex-start;
+    align-self: center;
+
+}
+
+.LeftimageGallery {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -42,6 +62,13 @@
     display: inline-block;
     align-self: center;
     justify-self: center;
+}
+
+
+/* this is the galleryContent */
+
+.galleryContent {
+    width: 80%;
 }
 
 
@@ -56,13 +83,38 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: green;
-
-
+    max-height: fit-content;
+    width: 80%;
 
 }
 
 
 
 
+/* special classes  */
+
+
+.alignMe {
+    margin-left: 5.5rem;
+}
+
+
 /* this is the rightSide of the gallery  */
+
+
+
+@media (max-width: 767px) {
+    .titleOne {}
+}
+
+/* 📲 Tablet (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .titleOneO {}
+}
+
+/* 💻 Desktop (1024px and up) */
+@media (min-width: 1024px) {
+
+    .specialOne {}
+
+}
