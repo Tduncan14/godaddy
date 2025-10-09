@@ -33,8 +33,19 @@
 
 .FooterLeftStates {
     display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5rem;
 }
 
+.FooterRightStates {
+    display: flex;
+}
+
+.FooterRightStates ul {
+    display: flex;
+    align-items: center;
+}
 
 hr {
     border: none;
@@ -50,13 +61,24 @@ hr {
     height: 2px;
     background-color: rgba(82, 81, 81, 0.8);
     border-radius: 2px;
-    width: 80%;
-    margin-top: 1.4rem;
+    width: 95%;
+    margin-top: 0;
     align-self: center;
+    margin-bottom: 2rem;
 
 }
 
-
 .Logo {
     display: flex;
+}
+
+/* this is the footer */
+
+.FooterStates {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
