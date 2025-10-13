@@ -24,3 +24,40 @@
   max-width: 100%;
   min-height: 100vh;
 }
+
+
+/* --- Desktop / Large Screens --- */
+@media (min-width: 1025px) {
+
+  /* Styles for desktops and large laptops */
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+/* --- Tablet / Medium Screens --- */
+@media (max-width: 1024px) and (min-width: 768px) {
+  /* Styles for tablets */
+
+  .App {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: var(--smallPadding);
+    padding-bottom: var(--smallPadding);
+    max-width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+
+
+}
+
+/* --- Mobile / Small Screens --- */
+@media (max-width: 767px) {
+
+  /* Styles for mobile phones */
+  h1 {
+    font-size: 1.8rem;
+  }
+}

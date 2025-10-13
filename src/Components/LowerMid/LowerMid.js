@@ -46,7 +46,7 @@ const LowerMid = () => {
 
 
 
-            <button className="browse">Browse All Templates</button>
+            <button className="browse ">Browse All Templates</button>
 
 
         </div>
