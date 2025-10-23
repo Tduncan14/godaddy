@@ -21,7 +21,7 @@ const FooterContent = () => {
                     <h1>Sign up for news and special offers</h1>
 
                     <div className="leftfooterButton">
-                        <input type="input" placeholder='Email address' />
+                        <input className="" type="input" placeholder='Email address' />
                         <button className="footerSignup">Sign Up</button>
                     </div>
 
@@ -30,6 +30,36 @@ const FooterContent = () => {
 
                 <div className="rightFooter">
                     <h1>We love taking your call.</h1>
+
+
+                    <div className="rightLogoFooter">
+                        <div className="logoRight">
+
+                            <div className="leftFoot">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-butterfly"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 18.176a3 3 0 1 1 -4.953 -2.449l-.025 .023a4.502 4.502 0 0 1 1.483 -8.75c1.414 0 2.675 .652 3.5 1.671a4.5 4.5 0 1 1 4.983 7.079a3 3 0 1 1 -4.983 2.25z" /><path d="M12 19v-10" /><path d="M9 3l3 2l3 -2" /></svg>
+
+                                <h1> GoDaddy</h1>
+
+
+
+                                <h2> guides </h2>
+
+
+                                <div className="logoRightarrow">
+
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-narrow-right"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 12l14 0" /><path d="M15 16l4 -4" /><path d="M15 8l4 4" /></svg>
+
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -118,7 +148,7 @@ const FooterContent = () => {
 
                         <div className="FooterLeftStates">
                             <div className="Logo">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-butterfly"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 18.176a3 3 0 1 1 -4.953 -2.449l-.025 .023a4.502 4.502 0 0 1 1.483 -8.75c1.414 0 2.675 .652 3.5 1.671a4.5 4.5 0 1 1 4.983 7.079a3 3 0 1 1 -4.983 2.25z" /><path d="M12 19v-10" /><path d="M9 3l3 2l3 -2" /></svg>
+                                <svg className="miniMe" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-butterfly"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 18.176a3 3 0 1 1 -4.953 -2.449l-.025 .023a4.502 4.502 0 0 1 1.483 -8.75c1.414 0 2.675 .652 3.5 1.671a4.5 4.5 0 1 1 4.983 7.079a3 3 0 1 1 -4.983 2.25z" /><path d="M12 19v-10" /><path d="M9 3l3 2l3 -2" /></svg>
 
                                 <h1> GoDaddy</h1>
                             </div>

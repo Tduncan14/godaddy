@@ -23,21 +23,21 @@ const MidCarousel = () => {
                     <h1>Tools for all your business firsts.</h1>
 
 
-                    <p>Website and store solutions for any small business</p>
+                    <p className="website">Website and store solutions for any small business</p>
 
 
 
 
                     <div className="buttons">
-                        <button>Get Started</button>
+                        <button className="getMeStart">Get Started</button>
 
 
-                        <button>Learn More</button>
+                        <button className="startLevel">Learn More</button>
                     </div>
 
 
 
-                    <p>No credit card required**</p>
+                    <p className="credit"> No credit card required**</p>
 
 
 
@@ -60,7 +60,7 @@ const MidCarousel = () => {
 
                     <p>Transfer Your Domains</p>
 
-                    <p>Domains include free privacy protection forever </p>
+                    <p className="smallMe">Domains include free privacy protection forever </p>
 
 
 

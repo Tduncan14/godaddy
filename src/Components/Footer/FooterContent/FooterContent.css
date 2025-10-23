@@ -141,3 +141,94 @@ hr {
     list-style-type: none;
     gap: 10px;
 }
+
+
+/* upperfont */
+
+.upperFooter {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    gap: 20px;
+}
+
+.upperFooter h1 {
+    font-size: clamp(14px, 18px, 20px);
+}
+
+.upperFooter .leftFooter {
+    flex: 1;
+}
+
+.upperFooter .rightFooter {
+    flex: 1;
+}
+
+.logoRight {
+    display: flex;
+    align-items: center;
+
+}
+
+.logoleftFoot {
+    display: flex;
+    align-items: center;
+}
+
+
+.leftFoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.upperFooter {}
+
+
+.logoRightarrow {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.leftfooterButton {
+    display: flex;
+    margin-top: .4rem;
+}
+
+.leftfooterButton input {
+    width: 100%;
+    background: #2b2b2b;
+    outline: none;
+    padding: 1.1rem;
+    border: none;
+}
+
+.FooterLeftStates {
+    align-items: center;
+}
+
+.miniMe {
+    align-self: center;
+}
+
+
+.footerSignup {
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    margin-right: 1rem;
+    text-wrap: nowrap;
+}
+
+.logoRightarrow svg {
+    position: absolute;
+    top: -3rem;
+    right: -5.4rem;
+
+}

@@ -32,11 +32,20 @@ const MidGallery = () => {
 
                     <div className="galleryContent alignMe">
 
-                        <p>01</p>
+                        <p>02</p>
 
                         <h1> Sell online with website</h1>
 
-                        <p>Sell anything, from physical produ,cts to download and services, and manage it all one place</p>
+                        <div className="paraMe">
+
+                            <p>2.3% + 0 per in-person transaction</p>
+                            <p>2.3% + 30 per in-person transaction</p>
+
+
+                            <p>Enjoy the lowest transaction fees compared to other leading providers</p>
+
+                        </div>
+
 
 
 
@@ -71,7 +80,11 @@ const MidGallery = () => {
 
                         <h1> Sell online with website</h1>
 
-                        <p>Sell anything, from physical produ,cts to download and services, and manage it all one place</p>
+                        <div className="paraMe">
+                            <p>Sell anything, from physical products to download and services, and manage it all one place</p>
+
+                        </div>
+
 
 
 
@@ -96,11 +109,16 @@ const MidGallery = () => {
 
                     <div className="galleryContent">
 
-                        <p>01</p>
+                        <p>03</p>
 
                         <h1> Sell online with website</h1>
 
-                        <p>Sell anything, from physical produ,cts to download and services, and manage it all one place</p>
+
+                        <div className="paraMe">
+                            <p>Sell anything, from physical products to download and services, and manage it all one place</p>
+                        </div>
+
+
 
 
 

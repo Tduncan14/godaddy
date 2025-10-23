@@ -1,3 +1,17 @@
 .carousel {
     margin-top: .9rem;
 }
+
+
+/*  this is the midGalleryContent*/
+
+
+.galleryContent {}
+
+.galleryContent p {
+    margin-top: 1rem;
+}
+
+.galleryContent h1 {
+    font-size: clamp(14px, 18px, 20px);
+}
