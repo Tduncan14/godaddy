@@ -212,8 +212,18 @@ hr {
     align-items: center;
 }
 
-.miniMe {
+.FooterLeftStates input {
+    justify-items: center;
+    outline: none;
+    border: none;
+
+}
+
+
+.Logo svg {
+
     align-self: center;
+    justify-self: center;
 }
 
 
