@@ -1,188 +1,596 @@
-.carousel {
-    display: flex;
-    column-gap: 1.6rem;
-    align-items: stretch;
+/* --- Desktop / Large Screens --- */
+@media (min-width: 1025px) {
+
+    .carousel {
+        display: flex;
+        column-gap: 1.6rem;
+        align-items: stretch;
+    }
+
+
+    .cara {
+
+        background-image: url('https://plus.unsplash.com/premium_photo-1668226461583-537fc6c5543d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex: 4.2;
+        padding: 3rem;
+        padding-left: 1.9rem;
+        padding-right: 1.4rem;
+    }
+
+
+
+    .cara h1 {
+        width: 50%;
+        color: white;
+    }
+
+    .cara h3 {
+        font-size: clamp(13px, 14px, 15px);
+    }
+
+
+    .website {
+        margin-top: 1rem;
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+
+    .getMeStart {
+        background: black;
+        color: white;
+        font-weight: 700;
+        border: none;
+        margin-right: 1rem;
+        padding: .6rem;
+        padding-left: 1.7rem;
+        padding-right: 1.7rem;
+        border-radius: 5px;
+    }
+
+    .startLevel {
+        background: transparent;
+        border: none;
+        font-weight: 600;
+        margin-bottom: .7rem;
+    }
+
+    .credit {
+        font-size: clamp(10px, 12px, 13px);
+        margin-top: .3rem;
+    }
+
+
+    /* end of the cara of area */
+
+
+    /* begin of the domain area */
+
+    .domains {
+        background: #D8EFEF;
+        flex: 2;
+        padding-right: 1rem;
+        padding: 2rem;
+    }
+
+
+    .domains h3 {
+        margin-bottom: 1rem;
+        font-size: clamp(11px, 13px, 16px);
+    }
+
+    .domains h2 {
+        width: 60%;
+        margin-bottom: 1rem;
+    }
+
+
+    .domains p {
+        margin-bottom: .4rem;
+        margin-top: .4rem;
+    }
+
+
+    .domains button {
+        background: black;
+        color: white;
+        font-weight: 700;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        padding-top: .5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: .5rem;
+        border-radius: 5px;
+    }
+
+    .domains .smallMe {
+        font-size: clamp(10px, 12px, 15px);
+        margin-bottom: 2rem;
+    }
+
+    /* end of the domain area */
+
+
+    /* shopArea */
+    .shopName {
+        margin-top: .8rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "domain security website wordpress shop"
+            "email  webD   onlineS  webHosting shop";
+        align-items: stretch;
+
+    }
+
+    .domain,
+    .security,
+    .websites,
+    .wordpress,
+    .email,
+    .websiteD,
+    .onlineS,
+    .webHosting,
+    .ShopBig {
+        border: solid 1px #ececec;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        color: gray;
+    }
+
+    .ShopBig {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ShopBig h1 {
+        color: black;
+        font-weight: 900;
+    }
+
+    .domain {
+        grid-area: domain;
+    }
+
+    .security {
+        grid-area: security;
+    }
+
+    .websites {
+        grid-area: website;
+    }
+
+    .wordpress {
+        grid-area: wordpress
+    }
+
+    .email {
+        grid-area: email;
+    }
+
+    .websiteD {
+        grid-area: webD;
+    }
+
+    .onlineS {
+        grid-area: onlineS;
+    }
+
+    .webHosting {
+        grid-area: webHosting;
+    }
+
+    .ShopBig {
+        grid-area: shop;
+    }
+
+
+
+
+
+
+
 }
 
+/* --- Tablet / Medium Screens --- */
+@media (max-width: 1024px) and (min-width: 768px) {
 
-.cara {
+    .carousel {
+        display: flex;
+        column-gap: 1.6rem;
+        align-items: stretch;
+    }
 
-    background-image: url('https://plus.unsplash.com/premium_photo-1668226461583-537fc6c5543d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex: 4.2;
-    padding: 3rem;
-    padding-left: 1.9rem;
-    padding-right: 1.4rem;
+
+    .cara {
+
+        background-image: url('https://plus.unsplash.com/premium_photo-1668226461583-537fc6c5543d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex: 4.2;
+        padding: 3rem;
+        padding-left: 1.9rem;
+        padding-right: 1.4rem;
+    }
+
+
+
+    .cara h1 {
+        width: 50%;
+        color: white;
+    }
+
+    .cara h3 {
+        font-size: clamp(13px, 14px, 15px);
+    }
+
+
+    .website {
+        margin-top: 1rem;
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+
+    .getMeStart {
+        background: black;
+        color: white;
+        font-weight: 700;
+        border: none;
+        margin-right: 1rem;
+        padding: .6rem;
+        padding-left: 1.7rem;
+        padding-right: 1.7rem;
+        border-radius: 5px;
+    }
+
+    .startLevel {
+        background: transparent;
+        border: none;
+        font-weight: 600;
+        margin-bottom: .7rem;
+    }
+
+    .credit {
+        font-size: clamp(10px, 12px, 13px);
+        margin-top: .3rem;
+    }
+
+
+    /* end of the cara of area */
+
+
+    /* begin of the domain area */
+
+    .domains {
+        background: #D8EFEF;
+        flex: 2;
+        padding-right: 1rem;
+        padding: 2rem;
+    }
+
+
+    .domains h3 {
+        margin-bottom: 1rem;
+        font-size: clamp(11px, 13px, 16px);
+    }
+
+    .domains h2 {
+        width: 60%;
+        margin-bottom: 1rem;
+    }
+
+
+    .domains p {
+        margin-bottom: .4rem;
+        margin-top: .4rem;
+    }
+
+
+    .domains button {
+        background: black;
+        color: white;
+        font-weight: 700;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        padding-top: .5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: .5rem;
+        border-radius: 5px;
+    }
+
+    .domains .smallMe {
+        font-size: clamp(10px, 12px, 15px);
+        margin-bottom: 2rem;
+    }
+
+    /* end of the domain area */
+
+
+    /* shopArea */
+    .shopName {
+        margin-top: .8rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "domain security website wordpress shop"
+            "email  webD   onlineS  webHosting shop";
+        align-items: stretch;
+
+    }
+
+    .domain,
+    .security,
+    .websites,
+    .wordpress,
+    .email,
+    .websiteD,
+    .onlineS,
+    .webHosting,
+    .ShopBig {
+        border: solid 1px #ececec;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        color: gray;
+    }
+
+    .ShopBig {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ShopBig h1 {
+        color: black;
+        font-weight: 900;
+    }
+
+    .domain {
+        grid-area: domain;
+    }
+
+    .security {
+        grid-area: security;
+    }
+
+    .websites {
+        grid-area: website;
+    }
+
+    .wordpress {
+        grid-area: wordpress
+    }
+
+    .email {
+        grid-area: email;
+    }
+
+    .websiteD {
+        grid-area: webD;
+    }
+
+    .onlineS {
+        grid-area: onlineS;
+    }
+
+    .webHosting {
+        grid-area: webHosting;
+    }
+
+    .ShopBig {
+        grid-area: shop;
+    }
+
+
+
+
+
 }
 
+/* --- Mobile / Small Screens --- */
+@media (max-width: 767px) {
 
 
-.cara h1 {
-    width: 50%;
-    color: white;
-}
-
-.cara h3 {
-    font-size: clamp(13px, 14px, 15px);
-}
+    .carousel {
+        display: flex;
+        flex-direction: column;
+        column-gap: 1.6rem;
+        align-items: stretch;
+    }
 
 
-.website {
-    margin-top: 1rem;
-    color: white;
-    margin-bottom: 1rem;
-}
+    .cara {
+
+        background-image: url('https://plus.unsplash.com/premium_photo-1668226461583-537fc6c5543d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 3rem;
+        padding-left: 1.9rem;
+        padding-right: 1.4rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
 
 
-.getMeStart {
-    background: black;
-    color: white;
-    font-weight: 700;
-    border: none;
-    margin-right: 1rem;
-    padding: .6rem;
-    padding-left: 1.7rem;
-    padding-right: 1.7rem;
-    border-radius: 5px;
-}
 
-.startLevel {
-    background: transparent;
-    border: none;
-    font-weight: 600;
-    margin-bottom: .7rem;
-}
+    .cara h1 {
+        width: 50%;
+        color: white;
+    }
 
-.credit {
-    font-size: clamp(10px, 12px, 13px);
-    margin-top: .3rem;
-}
+    .cara h3 {
+        font-size: clamp(13px, 14px, 15px);
+    }
 
 
-/* end of the cara of area */
+    .website {
+        margin-top: 1rem;
+        color: white;
+        margin-bottom: 1rem;
+    }
 
 
-/* begin of the domain area */
+    .getMeStart {
+        background: black;
+        color: white;
+        font-weight: 700;
+        border: none;
+        margin-right: 1rem;
+        padding: .6rem;
+        padding-left: 1.7rem;
+        padding-right: 1.7rem;
+        border-radius: 5px;
+    }
 
-.domains {
-    background: #D8EFEF;
-    flex: 2;
-    padding-right: 1rem;
-    padding: 2rem;
-}
+    .startLevel {
+        background: transparent;
+        border: none;
+        font-weight: 600;
+        margin-bottom: .7rem;
+    }
 
-
-.domains h3 {
-    margin-bottom: 1rem;
-    font-size: clamp(11px, 13px, 16px);
-}
-
-.domains h2 {
-    width: 60%;
-    margin-bottom: 1rem;
-}
-
-
-.domains p {
-    margin-bottom: .4rem;
-    margin-top: .4rem;
-}
+    .credit {
+        font-size: clamp(10px, 12px, 13px);
+        margin-top: .3rem;
+    }
 
 
-.domains button {
-    background: black;
-    color: white;
-    font-weight: 700;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-    padding-top: .5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-bottom: .5rem;
-    border-radius: 5px;
-}
-
-.domains .smallMe {
-    font-size: clamp(10px, 12px, 15px);
-    margin-bottom: 2rem;
-}
-
-/* end of the domain area */
+    /* end of the cara of area */
 
 
-/* shopArea */
-.shopName {
-    margin-top: .8rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-        "domain security website wordpress shop"
-        "email  webD   onlineS  webHosting shop";
-    align-items: stretch;
+    /* begin of the domain area */
 
-}
+    .domains {
+        background: #D8EFEF;
+        flex: 2;
+        padding-right: 1rem;
+        padding: 2rem;
+    }
 
-.domain,
-.security,
-.websites,
-.wordpress,
-.email,
-.websiteD,
-.onlineS,
-.webHosting,
-.ShopBig {
-    border: solid 1px #ececec;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    color: gray;
-}
 
-.ShopBig {
-    display: flex;
-    flex-direction: column;
-}
+    .domains h3 {
+        margin-bottom: 1rem;
+        font-size: clamp(11px, 13px, 16px);
+    }
 
-.ShopBig h1 {
-    color: black;
-    font-weight: 900;
-}
+    .domains h2 {
+        width: 60%;
+        margin-bottom: 1rem;
+    }
 
-.domain {
-    grid-area: domain;
-}
 
-.security {
-    grid-area: security;
-}
+    .domains p {
+        margin-bottom: .4rem;
+        margin-top: .4rem;
+    }
 
-.websites {
-    grid-area: website;
-}
 
-.wordpress {
-    grid-area: wordpress
-}
+    .domains button {
+        background: black;
+        color: white;
+        font-weight: 700;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        padding-top: .5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: .5rem;
+        border-radius: 5px;
+    }
 
-.email {
-    grid-area: email;
-}
+    .domains .smallMe {
+        font-size: clamp(10px, 12px, 15px);
+        margin-bottom: 2rem;
+    }
 
-.websiteD {
-    grid-area: webD;
-}
+    /* end of the domain area */
 
-.onlineS {
-    grid-area: onlineS;
-}
 
-.webHosting {
-    grid-area: webHosting;
-}
+    /* shopArea */
+    .shopName {
+        margin-top: .8rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "domain security website wordpress shop"
+            "email  webD   onlineS  webHosting shop";
+        align-items: stretch;
 
-.ShopBig {
-    grid-area: shop;
+    }
+
+    .domain,
+    .security,
+    .websites,
+    .wordpress,
+    .email,
+    .websiteD,
+    .onlineS,
+    .webHosting,
+    .ShopBig {
+        border: solid 1px #ececec;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        color: gray;
+    }
+
+    .ShopBig {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ShopBig h1 {
+        color: black;
+        font-weight: 900;
+    }
+
+    .domain {
+        grid-area: domain;
+    }
+
+    .security {
+        grid-area: security;
+    }
+
+    .websites {
+        grid-area: website;
+    }
+
+    .wordpress {
+        grid-area: wordpress
+    }
+
+    .email {
+        grid-area: email;
+    }
+
+    .websiteD {
+        grid-area: webD;
+    }
+
+    .onlineS {
+        grid-area: onlineS;
+    }
+
+    .webHosting {
+        grid-area: webHosting;
+    }
+
+    .ShopBig {
+        grid-area: shop;
+    }
+
+
+
 }

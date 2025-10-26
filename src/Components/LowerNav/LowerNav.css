@@ -96,6 +96,7 @@
 
     .stockList {
         display: flex;
+        flex-direction: column;
     }
 
     .stockysL {
@@ -167,7 +168,86 @@
 @media (max-width: 767px) {
 
     /* Styles for mobile phones */
-    h1 {
-        font-size: 1.8rem;
+
+    .lowerNav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        gap: .8rem;
+
+
     }
+
+
+
+
+    .stockList {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stockysL {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .stockysL h5 {
+        color: #c9c7c4;
+        font-weight: 900;
+        font-size: 1.2rem;
+    }
+
+    .stockysL p {
+        color: #A6AEAE;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+
+    .stockysL li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        align-items: center;
+        gap: .5rem;
+        font-size: clamp(16px, 18px, 20px);
+        margin-bottom: 2rem;
+    }
+
+    /* this the input side */
+
+    .searchArea {
+        display: flex;
+        flex: 7;
+    }
+
+    .searchArea input {
+        width: 100%;
+        background-color: #ECECEC;
+        padding: 1rem;
+        font-weight: 700;
+        color: #6b6b6b;
+        border: none
+    }
+
+    .sDomain {
+        background: #09757a;
+        color: white;
+        text-wrap: nowrap;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        outline: none;
+        border: none;
+    }
+
+
+
+
+
+
 }
