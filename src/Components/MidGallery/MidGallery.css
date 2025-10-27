@@ -8,6 +8,7 @@
 
 
 
+
 }
 
 .galleryContent {}
@@ -176,8 +177,179 @@
 
 
 @media (max-width: 767px) {
-    .titleOne {}
+    .midGallery {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: stretch;
+        justify-content: center;
+        margin-top: 5rem;
+        gap: 15px;
+        max-width: 100%;
+
+
+
+
+    }
+
+    .galleryContent {}
+
+
+    .imgP {}
+
+    /* paragraph for the content */
+
+
+    .galleryContent {
+        margin-top: 2rem;
+        justify-self: center;
+    }
+
+    .galleryContent h1 {
+        margin-top: 1rem;
+    }
+
+    .paraMe p {
+        margin-top: 0;
+    }
+
+    .paraMe {
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+
+
+    .paraMe p:last-child {
+        margin-bottom: .9rem;
+    }
+
+
+    .started {
+        display: flex;
+        gap: 10px;
+    }
+
+    .started .start {
+        background: black;
+        color: white;
+        font-weight: 700;
+        padding: .5rem;
+        padding-left: 1.9rem;
+        padding-right: 1.9rem;
+        border-radius: 5px;
+    }
+
+
+    .started :nth-child(2) {
+        background-color: inherit;
+        font-weight: 700;
+    }
+
+    .started button {
+        border: none;
+        outline: none;
+    }
+
+    /* end of paragraph content */
+
+
+
+    /* this is the leftside of the gallery */
+
+
+    .leftGallery {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex: 1;
+        max-height: fit-content;
+
+    }
+
+
+    .titleOne {
+        margin-bottom: 10rem;
+
+    }
+
+
+
+    .leftGallery h1 {
+        align-self: center;
+
+    }
+
+    .LeftimageGallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .leftGallery img {
+        display: inline-block;
+        align-self: center;
+        justify-self: center;
+    }
+
+
+    /* this is the galleryContent */
+
+    .galleryContent {
+        width: 80%;
+    }
+
+
+
+
+
+
+    /* this is the rightside of the gallery  */
+
+
+    .rightGallery {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        max-height: fit-content;
+        width: 80%;
+
+    }
+
+
+    .specialPara {
+        color: #00838C;
+    }
+
+
+
+    /* special classes  */
+
+
+    .alignMe {}
+
+
+    /* this is the rightSide of the gallery  */
+
+
+    .rightGallery {}
+
+
+    .rightImageGallerytwo {
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+    }
+
+
+    .leftGallery,
+    .midGallery img {
+        display: inline-block;
+        align-self: center;
+        justify-self: center;
+    }
 }
+
+
+
 
 /* 📲 Tablet (768px - 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -185,8 +357,4 @@
 }
 
 /* 💻 Desktop (1024px and up) */
-@media (min-width: 1024px) {
-
-    .specialOne {}
-
-}
+@media (min-width: 1024px) {}

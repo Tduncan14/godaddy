@@ -1,244 +1,771 @@
-.footer {
-    background: #111;
-    color: white;
+@media (min-width: 1025px) {
+
+    .footer {
+        background: #111;
+        color: white;
+    }
+
+
+
+    /* mid foot area */
+
+    .midFooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 40px;
+        justify-items: center;
+        margin-top: 1rem;
+
+    }
+
+    .list li {
+        list-style-type: none;
+        margin-top: 1rem;
+
+    }
+
+    /* not the list  */
+    .footerStates {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .FooterLeftStates {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 5rem;
+    }
+
+    .FooterRightStates {
+        display: flex;
+    }
+
+    .FooterRightStates ul {
+        display: flex;
+        margin-top: auto;
+        gap: 10px;
+
+    }
+
+    .FooterRightStates li {
+        list-style-type: none;
+        justify-items: center;
+
+    }
+
+    .FooterRightStates svg {
+        color: white;
+    }
+
+
+    hr {
+        border: none;
+        height: 2px;
+        background-color: rgba(82, 81, 81, 0.8);
+        border-radius: 2px;
+        width: 100%;
+        margin-top: 1.4rem;
+    }
+
+    .midline {
+        border: none;
+        height: 2px;
+        background-color: rgba(82, 81, 81, 0.8);
+        border-radius: 2px;
+        margin-top: 1rem;
+        align-self: center;
+        margin-bottom: 2rem;
+
+    }
+
+    .Logo {
+        display: flex;
+    }
+
+    /* this is the footer */
+
+    .FooterStates {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .upperFooterStates {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+    .lowerFooterStates {
+        display: flex;
+        gap: 20px;
+        align-items: stretch;
+        justify-content: center;
+        font-size: clamp(12px, 14px, 16px);
+        margin-bottom: 2rem;
+    }
+
+
+    .lowerLeft {
+        flex: 7;
+        font-size: clamp(10px, 12px, 14px);
+
+    }
+
+
+    .lowerLeft p {
+        margin-bottom: 1rem;
+    }
+
+
+    .lowerRight {
+        flex: 1;
+        margin-bottom: 1rem;
+        text-wrap: nowrap;
+        font-size: clamp(10px, 12px, 14px);
+    }
+
+    .lowerRight ul {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+
+    .lowerRight ul {
+        list-style-type: none;
+        gap: 10px;
+    }
+
+
+    /* upperfont */
+
+    .upperFooter {
+        display: flex;
+        padding: 2rem;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .upperFooter h1 {
+        font-size: clamp(14px, 18px, 20px);
+    }
+
+    .upperFooter .leftFooter {
+        flex: 1;
+    }
+
+    .upperFooter .rightFooter {
+        flex: 1;
+    }
+
+    .logoRight {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .logoleftFoot {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .leftFoot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .upperFooter {}
+
+
+    .logoRightarrow {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+    }
+
+    .leftfooterButton {
+        display: flex;
+        margin-top: .4rem;
+    }
+
+    .leftfooterButton input {
+        width: 100%;
+        background: #2b2b2b;
+        outline: none;
+        padding: 1.1rem;
+        border: none;
+    }
+
+    .FooterLeftStates {
+        align-items: center;
+    }
+
+    .FooterLeftStates input {
+        justify-items: center;
+        outline: none;
+        border: none;
+
+    }
+
+
+    .Logo svg {
+
+        align-self: center;
+        justify-self: center;
+    }
+
+
+    .footerSignup {
+        padding: .5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+        margin-right: 1rem;
+        text-wrap: nowrap;
+    }
+
+    .logoRightarrow svg {
+        position: absolute;
+        top: -3rem;
+        right: -5.4rem;
+
+    }
+
+
+
+
 }
 
+/* --- Tablet / Medium Screens --- */
+@media (max-width: 1024px) and (min-width: 768px) {
+    /* Styles for tablets */
 
-/* mid foot area */
+    .footer {
+        background: #111;
+        color: white;
+    }
 
-.midFooter {
-    display: flex;
-    flex-direction: column;
+
+
+    /* mid foot area */
+
+    .midFooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 40px;
+        justify-items: center;
+        margin-top: 1rem;
+        text-align: center;
+
+    }
+
+    .list li {
+        list-style-type: none;
+        margin-top: 1rem;
+
+    }
+
+    /* not the list  */
+    .footerStates {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .FooterLeftStates {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 5rem;
+    }
+
+    .FooterRightStates {
+        display: flex;
+    }
+
+    .FooterRightStates ul {
+        display: flex;
+        margin-top: auto;
+        gap: 10px;
+
+    }
+
+    .FooterRightStates li {
+        list-style-type: none;
+        justify-items: center;
+
+    }
+
+    .FooterRightStates svg {
+        color: white;
+    }
+
+
+    hr {
+        border: none;
+        height: 2px;
+        background-color: rgba(82, 81, 81, 0.8);
+        border-radius: 2px;
+        width: 100%;
+        margin-top: 1.4rem;
+    }
+
+    .midline {
+        border: none;
+        height: 2px;
+        background-color: rgba(82, 81, 81, 0.8);
+        border-radius: 2px;
+        margin-top: 1rem;
+        align-self: center;
+        margin-bottom: 2rem;
+
+    }
+
+    .Logo {
+        display: flex;
+    }
+
+    /* this is the footer */
+
+    .FooterStates {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .upperFooterStates {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+    .lowerFooterStates {
+        display: flex;
+        gap: 20px;
+        align-items: stretch;
+        justify-content: center;
+        font-size: clamp(12px, 14px, 16px);
+        margin-bottom: 2rem;
+    }
+
+
+    .lowerLeft {
+        flex: 7;
+        font-size: clamp(10px, 12px, 14px);
+
+    }
+
+
+    .lowerLeft p {
+        margin-bottom: 1rem;
+    }
+
+
+    .lowerRight {
+        flex: 1;
+        margin-bottom: 1rem;
+        text-wrap: nowrap;
+        font-size: clamp(10px, 12px, 14px);
+    }
+
+    .lowerRight ul {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+
+    .lowerRight ul {
+        list-style-type: none;
+        gap: 10px;
+    }
+
+
+    /* upperfont */
+
+    .upperFooter {
+        display: flex;
+        padding: 2rem;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .upperFooter h1 {
+        font-size: clamp(14px, 18px, 20px);
+    }
+
+    .upperFooter .leftFooter {
+        flex: 1;
+    }
+
+    .upperFooter .rightFooter {
+        flex: 1;
+    }
+
+    .logoRight {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .logoleftFoot {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .leftFoot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .upperFooter {}
+
+
+    .logoRightarrow {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+    }
+
+    .leftfooterButton {
+        display: flex;
+        margin-top: .4rem;
+    }
+
+    .leftfooterButton input {
+        width: 100%;
+        background: #2b2b2b;
+        outline: none;
+        padding: 1.1rem;
+        border: none;
+    }
+
+    .FooterLeftStates {
+        align-items: center;
+    }
+
+    .FooterLeftStates input {
+        justify-items: center;
+        outline: none;
+        border: none;
+
+    }
+
+
+    .Logo svg {
+
+        align-self: center;
+        justify-self: center;
+    }
+
+
+    .footerSignup {
+        padding: .5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+        margin-right: 1rem;
+        text-wrap: nowrap;
+    }
+
+    .logoRightarrow svg {
+        position: absolute;
+        top: -3rem;
+        right: -5.4rem;
+
+    }
+
+
+
+
+
+
+
+
 }
 
-.list {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    column-gap: 40px;
-    justify-items: center;
-    margin-top: 1rem;
+/* --- Mobile / Small Screens --- */
+@media (max-width: 767px) {
 
-}
-
-.list li {
-    list-style-type: none;
-    margin-top: 1rem;
-
-}
-
-/* not the list  */
-.footerStates {
-    display: flex;
-    justify-content: space-between;
-}
-
-.FooterLeftStates {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-top: 5rem;
-}
-
-.FooterRightStates {
-    display: flex;
-}
-
-.FooterRightStates ul {
-    display: flex;
-    margin-top: auto;
-    gap: 10px;
-
-}
-
-.FooterRightStates li {
-    list-style-type: none;
-    justify-items: center;
-
-}
-
-.FooterRightStates svg {
-    color: white;
-}
+    .footer {
+        background: #111;
+        color: white;
+    }
 
 
-hr {
-    border: none;
-    height: 2px;
-    background-color: rgba(82, 81, 81, 0.8);
-    border-radius: 2px;
-    width: 100%;
-    margin-top: 1.4rem;
-}
-
-.midline {
-    border: none;
-    height: 2px;
-    background-color: rgba(82, 81, 81, 0.8);
-    border-radius: 2px;
-    margin-top: 1rem;
-    align-self: center;
-    margin-bottom: 2rem;
-
-}
-
-.Logo {
-    display: flex;
-}
-
-/* this is the footer */
-
-.FooterStates {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.upperFooterStates {
-    display: flex;
-    justify-content: space-between;
-
-}
+    .upperFooter {
+        display: flex;
+        flex-direction: column;
+    }
 
 
-.lowerFooterStates {
-    display: flex;
-    gap: 20px;
-    align-items: stretch;
-    justify-content: center;
-    font-size: clamp(12px, 14px, 16px);
-    margin-bottom: 2rem;
-}
+    /* mid foot area */
+
+    .midFooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 40px;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+
+        margin-top: 1rem;
+
+    }
+
+    .list li {
+        list-style-type: none;
+        margin-top: 1rem;
+
+    }
+
+    /* not the list  */
+    .footerStates {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .FooterLeftStates {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 5rem;
+    }
+
+    .FooterRightStates {
+        display: flex;
+    }
+
+    .FooterRightStates ul {
+        display: flex;
+        margin-top: auto;
+        gap: 10px;
+
+    }
+
+    .FooterRightStates li {
+        list-style-type: none;
+        justify-items: center;
+
+    }
+
+    .FooterRightStates svg {
+        color: white;
+    }
 
 
-.lowerLeft {
-    flex: 7;
-    font-size: clamp(10px, 12px, 14px);
+    hr {
+        border: none;
+        height: 2px;
+        background-color: rgba(82, 81, 81, 0.8);
+        border-radius: 2px;
+        width: 100%;
+        margin-top: 1.4rem;
+    }
 
-}
+    .midline {
+        border: none;
+        height: 2px;
+        background-color: rgba(82, 81, 81, 0.8);
+        border-radius: 2px;
+        margin-top: 1rem;
+        align-self: center;
+        margin-bottom: 2rem;
 
+    }
 
-.lowerLeft p {
-    margin-bottom: 1rem;
-}
+    .Logo {
+        display: flex;
+    }
 
+    /* this is the footer */
 
-.lowerRight {
-    flex: 1;
-    margin-bottom: 1rem;
-    text-wrap: nowrap;
-    font-size: clamp(10px, 12px, 14px);
-}
+    .FooterStates {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.lowerRight ul {
-    display: flex;
-    margin-bottom: 1rem;
-}
+    .upperFooterStates {
+        display: flex;
+        justify-content: space-between;
 
-.lowerRight ul {
-    list-style-type: none;
-    gap: 10px;
-}
-
-
-/* upperfont */
-
-.upperFooter {
-    display: flex;
-    padding: 2rem;
-    align-items: center;
-    gap: 20px;
-}
-
-.upperFooter h1 {
-    font-size: clamp(14px, 18px, 20px);
-}
-
-.upperFooter .leftFooter {
-    flex: 1;
-}
-
-.upperFooter .rightFooter {
-    flex: 1;
-}
-
-.logoRight {
-    display: flex;
-    align-items: center;
-
-}
-
-.logoleftFoot {
-    display: flex;
-    align-items: center;
-}
+    }
 
 
-.leftFoot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
+    .lowerFooterStates {
+        display: flex;
+        gap: 20px;
+        align-items: stretch;
+        justify-content: center;
+        font-size: clamp(12px, 14px, 16px);
+        margin-bottom: 2rem;
+    }
 
 
-.upperFooter {}
+    .lowerLeft {
+        flex: 7;
+        font-size: clamp(10px, 12px, 14px);
+
+    }
 
 
-.logoRightarrow {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-
-}
-
-.leftfooterButton {
-    display: flex;
-    margin-top: .4rem;
-}
-
-.leftfooterButton input {
-    width: 100%;
-    background: #2b2b2b;
-    outline: none;
-    padding: 1.1rem;
-    border: none;
-}
-
-.FooterLeftStates {
-    align-items: center;
-}
-
-.FooterLeftStates input {
-    justify-items: center;
-    outline: none;
-    border: none;
-
-}
+    .lowerLeft p {
+        margin-bottom: 1rem;
+    }
 
 
-.Logo svg {
+    .lowerRight {
+        flex: 1;
+        margin-bottom: 1rem;
+        text-wrap: nowrap;
+        font-size: clamp(10px, 12px, 14px);
+    }
 
-    align-self: center;
-    justify-self: center;
-}
+    .lowerRight ul {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+
+    .lowerRight ul {
+        list-style-type: none;
+        gap: 10px;
+    }
 
 
-.footerSignup {
-    padding: .5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    text-align: center;
-    margin-right: 1rem;
-    text-wrap: nowrap;
-}
+    /* upperfont */
 
-.logoRightarrow svg {
-    position: absolute;
-    top: -3rem;
-    right: -5.4rem;
+    .upperFooter {
+        display: flex;
+        padding: 2rem;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .upperFooter h1 {
+        font-size: clamp(14px, 18px, 20px);
+    }
+
+    .upperFooter .leftFooter {
+        flex: 1;
+    }
+
+    .upperFooter .rightFooter {
+        flex: 1;
+    }
+
+    .logoRight {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .logoleftFoot {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .leftFoot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .upperFooter {}
+
+
+    .logoRightarrow {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+    }
+
+    .leftfooterButton {
+        display: flex;
+        margin-top: .4rem;
+    }
+
+    .leftfooterButton input {
+        width: 100%;
+        background: #2b2b2b;
+        outline: none;
+        padding: 1.1rem;
+        border: none;
+    }
+
+    .FooterLeftStates {
+        align-items: center;
+    }
+
+    .FooterLeftStates input {
+        justify-items: center;
+        outline: none;
+        border: none;
+
+    }
+
+
+    .Logo svg {
+
+        align-self: center;
+        justify-self: center;
+    }
+
+
+    .footerSignup {
+        padding: .5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+        margin-right: 1rem;
+        text-wrap: nowrap;
+    }
+
+    .logoRightarrow svg {
+        position: absolute;
+        top: -3rem;
+        right: -5.4rem;
+
+    }
 
 }

@@ -5,13 +5,13 @@ import MidContent from './Components/MidContent/MidContent.js';
 import Footer from './Components/Footer/Footer.js';
 function App() {
   return (
-    <>
+    <div className="parentApp">
       <div className="App">
         <NavParent />
         <MidContent />
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
